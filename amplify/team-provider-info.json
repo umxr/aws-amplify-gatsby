@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "game-of-thrones-dev-20190928114248-authRole",
+            "UnauthRoleArn": "arn:aws:iam::129320158123:role/game-of-thrones-dev-20190928114248-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::129320158123:role/game-of-thrones-dev-20190928114248-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "game-of-thrones-dev-20190928114248-deployment",
+            "UnauthRoleName": "game-of-thrones-dev-20190928114248-unauthRole",
+            "StackName": "game-of-thrones-dev-20190928114248",
+            "StackId": "arn:aws:cloudformation:eu-west-2:129320158123:stack/game-of-thrones-dev-20190928114248/b716f2e0-e1dc-11e9-9153-02ea235e602c"
+        }
+    }
+}
