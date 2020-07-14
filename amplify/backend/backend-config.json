@@ -1,0 +1,35 @@
+{
+    "api": {
+        "reactAmplify": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "authConfig": {
+                    "additionalAuthenticationProviders": [],
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY",
+                        "apiKeyConfig": {
+                            "description": "React Amplify",
+                            "apiKeyExpirationDays": "7"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "auth": {
+        "reactamplify12ae56fd": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "customAuth": false
+        }
+    },
+    "hosting": {
+        "amplifyhosting": {
+            "service": "amplifyhosting",
+            "providerPlugin": "awscloudformation",
+            "type": "manual"
+        }
+    }
+}
